@@ -1,0 +1,20 @@
+{
+  "name": "event-booking-graphql",
+  "version": "1.0.0",
+  "description": "This API will allow user to book an event and create a event it using GraphQL and react",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Sumit Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
